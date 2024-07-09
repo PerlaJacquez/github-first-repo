@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/favicon.ico.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <a href="#" rel="">
+            <img src="./imagenes/logo.svg.svg" alt="Logo Alura" class="logo.svg.svg">
+        </a>    
+    </header>
+
+    <!-- Principal -->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador-aviso.svg">
+                <img src="./imagenes/aviso.svg.svg" alt="Imagen Aviso" class="img-aviso.svg.svg">
+                <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+           <div class="tarjeta-contenedor">
+                <img src="./imagenes/muñeco.svg.svg" alt="muñeco.svg" class="img-muñeco.svg">
+                <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+           </div>
+           <textarea type="mensaje" class="evaluar" readonly></textarea>
+           <button type="submit" class="btn-copiar">Copiar</button>
+         </section>  
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p class="copyright">&copy; Encriptador de Texto - Desarrollado por Perla De la Paz Jacquez - ALURA CHALLENGE 2024</p>
+        <a href="#" rel="">
+        
+    </footer>
+
+    <script src="./js/encriptador.js"></script>
+
+</body>
+</html>
